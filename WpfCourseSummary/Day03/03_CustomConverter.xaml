@@ -30,7 +30,6 @@
 
         <Border Margin="10" BorderBrush="LightBlue" BorderThickness="2">
             <StackPanel>
-                <!--שימוש בממיר של מספר לצבע-->
                 <TextBlock FontSize="13">Slider values will change the rectangle color</TextBlock>
                 <TextBlock FontSize="10">0-20   = Red</TextBlock>
                 <TextBlock FontSize="10">20-70  = Green</TextBlock>
@@ -38,7 +37,6 @@
                 
                 <TextBlock FontSize="10">when rectangle is red - the opacity will change as well</TextBlock>
 
-                <!--הסליידר-->
                 <Slider Name="sldSlider" Minimum="0" Maximum="100" Value="50"
                         Opacity="{Binding ElementName=objRect, Path=Fill, Converter={StaticResource ResourceKey=myColorToDoubleConverter}}"></Slider>
 
