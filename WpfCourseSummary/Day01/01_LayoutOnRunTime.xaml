@@ -1,0 +1,16 @@
+﻿<Page x:Class="WpfApplication01.LayoutOnRunTime"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LayoutOnRunTime" Height="300" Width="300">
+    <StackPanel>
+        <Border BorderBrush="LightBlue" BorderThickness="2" Margin="5" Background="LightYellow">
+          
+            <StackPanel>
+                <TextBlock >Creating a Grid on runtime</TextBlock>
+                <TextBlock FontSize="8">see code in Grid_Loaded</TextBlock>
+            </StackPanel>
+        </Border>
+        <Grid Name="myGrid" Loaded="Grid_Loaded">
+        </Grid>
+    </StackPanel>
+</Page>

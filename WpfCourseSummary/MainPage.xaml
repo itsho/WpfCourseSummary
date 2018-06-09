@@ -1,0 +1,47 @@
+﻿<Page x:Class="WpfApplication01.MainMenu"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	  mc:Ignorable="d"
+	  Title="MainMenu">
+
+    <Grid>
+
+        <StackPanel Margin="10">
+            <StackPanel Margin="10">
+                <TextBlock FontSize="15" TextDecorations="Underline">WPF Course Summary</TextBlock>
+                <TextBlock FontWeight="Bold">Day 01</TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day01\01_ControlsHierarchy.xaml">Controls Hierarchy</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day01\01_Layout.xaml">Layout - Panel types</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day01\01_LayoutOnRunTime.xaml">Layout on RunTime</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day01\01_Page1.xaml">Page1 - Navigation Example</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day01\01_Page2.xaml">Page2 - Navigation Example</Hyperlink></TextBlock>
+            </StackPanel>
+
+            <StackPanel Margin="10">
+                <TextBlock FontWeight="Bold">Day 02</TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day02\02_ContolTemplate.xaml">ContolTemplate</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day02\02_ControlsStyle.xaml">ControlsStyle</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day02\02_Triggers.xaml">Triggers</Hyperlink></TextBlock>
+            </StackPanel>
+            <StackPanel Margin="10">
+                <TextBlock FontWeight="Bold">Day 03</TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day03\03_Animation1.xaml">Animation 1</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day03\03_Animation2.xaml">Animation 2</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day03\03_Animation3.xaml">Animation 3</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day03\03_Binding.xaml" FontWeight="Bold" FontSize="15">Binding Magic</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day03\03_FlowDocument.xaml">FlowDocument (creating Document from XAML)</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day03\03_CustomConverter.xaml">CustomConverter</Hyperlink></TextBlock>
+            </StackPanel>
+            <StackPanel Margin="10">
+                <TextBlock FontWeight="Bold">Day 04</TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day04\04_Brushes.xaml">Brush</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day04\04_Polygon.xaml">Polygon</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day04\04_Geometry.xaml">Geometry</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day04\04_3D.xaml" FontSize="15" FontWeight="Bold">3D Objects</Hyperlink></TextBlock>
+                <TextBlock><Hyperlink NavigateUri="Day04\04_POC.xaml">Proof Of Concept...</Hyperlink></TextBlock>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
